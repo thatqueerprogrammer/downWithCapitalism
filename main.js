@@ -1,2 +1,9 @@
 //I have no idea what this is going to be yet
-var jeffBezos = "Worthless";
+class UserAccount {
+    constructor(username, password, isMod){
+        this.usrnm = username;
+        this.pswrd = password;
+        this.isMod = isMod;
+    }
+    
+}
